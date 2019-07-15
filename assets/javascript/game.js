@@ -29,7 +29,15 @@ var losses = 0;
 // functions to call
 // ------------------
 
+function gamestart () {
+    var pcguess = Math.floor(Math.random() * 100);
+    $("#randomnum").html("Get to this number: " + pcguess);
 
+    for (i = 0; i < 4; i++) {
+        crystalarr.push(Math.floor(Math.random() * 30));
+        console.log(crystalarr);
+    }
+}
 
 // clickable functions
 // ------------------
@@ -51,3 +59,5 @@ $("#crystal_4").click(function() {
 
 // game process
 // ------------------
+
+gamestart();
