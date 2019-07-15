@@ -30,31 +30,35 @@ var losses = 0;
 // ------------------
 
 function gamestart () {
-    var pcguess = Math.floor(Math.random() * 100);
+    var pcguess = Math.floor(Math.random() * 100 + 20);
     $("#randomnum").html("Get to this number: " + pcguess);
 
     for (i = 0; i < 4; i++) {
-        crystalarr.push(Math.floor(Math.random() * 30));
+        crystalarr.push(Math.floor(Math.random() * 15 + 1));
         console.log(crystalarr);
     }
 }
 
 // clickable functions
 // ------------------
-$("#crystal_1").click(function() {
-    alert("Clickable")
+$("#crystal_1").click(function() {    
+    count += crystalarr[0];
+    $("#totalscore").html(count);
 });
 
 $("#crystal_2").click(function() {
-    alert("Clickable")
+    count += crystalarr[1];
+    $("#totalscore").html(count);
 });
 
 $("#crystal_3").click(function() {
-    alert("Clickable")
+    count += crystalarr[2];
+    $("#totalscore").html(count);
 });
 
 $("#crystal_4").click(function() {
-    alert("Clickable")
+    count += crystalarr[3];
+    $("#totalscore").html(count);
 });
 
 // game process
