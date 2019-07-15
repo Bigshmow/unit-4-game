@@ -1,0 +1,35 @@
+body {
+    background: url("../images/crystal_bg.jpeg");
+}
+
+.header {
+    color: white;
+    background-color: orangered;
+    font-size: 32px;
+}
+
+.rules {
+    color: green;
+    background-color: bisque;
+}
+
+.numbertoguess {
+    color: purple;
+    background-color: rgb(8, 151, 84);
+}
+
+.winloss {
+    color: purple;
+    background-color: aqua;
+    margin-left: 10px;
+}
+
+.crystals {
+    margin-right: 5px;
+    background-color: white;
+}
+
+.total {
+    color: white;
+    background-color: teal;
+}
