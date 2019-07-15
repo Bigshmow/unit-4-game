@@ -21,7 +21,7 @@ body {
 .winloss {
     color: purple;
     background-color: aqua;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
 .crystals {
