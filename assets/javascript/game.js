@@ -30,13 +30,13 @@ var losses = 0;
 // ------------------
 
 function gamestart () {
-    pcguess = Math.floor(Math.random() * 80 + 20);
+    pcguess = Math.floor(Math.random() * 101 + 19);
     $("#randomnum").html("Get to this number: " + pcguess);
     count = 0;
     $("#totalscore").html(count);
     crystalarr.length = 0;
     for (i = 0; i < 4; i++) {
-        crystalarr.push(Math.floor(Math.random() * 15 + 1));
+        crystalarr.push(Math.floor(Math.random() * 12 + 1));
         console.log(crystalarr);
     }
 }
