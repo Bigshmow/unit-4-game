@@ -10,5 +10,5 @@ The goal of this project was to demonstrate Jquery knowledge in updating a page 
 
 [![Crystal-Collector-Read-Me.jpg](https://i.postimg.cc/Y9NMPZFc/Crystal-Collector-Read-Me.jpg)](https://postimg.cc/HcLqcS33)
 
-If you have any questions send an email to dstewart88@gmail.com with the subject line GifTastic.
+If you have any questions send an email to dstewart88@gmail.com with the subject line CrystalCollector.
 Thank you.
